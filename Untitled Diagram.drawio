@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:36:49.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="fcTvNUMp_WzF3msHg-jH" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T09:22:58.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="oeiE8N-Q5xk_yKkF9TvE" version="14.7.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="769" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1251" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -97,6 +97,15 @@
         </mxCell>
         <mxCell id="nWXFKt9MvNIrhIuAzhl7-21" value="静默发单" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ibISG0TpRlNrIzNE_-0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_ibISG0TpRlNrIzNE_-0-0" target="_ibISG0TpRlNrIzNE_-0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ibISG0TpRlNrIzNE_-0-0" value="git checkout feature/xx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ibISG0TpRlNrIzNE_-0-1" value="feature分支发布的时候 需要自动合入master&amp;nbsp; 这个打个tag就好了吧 触发gitlab hook" style="whiteSpace=wrap;html=1;rounded=1;rotation=-1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="750" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
