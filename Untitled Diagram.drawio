@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T09:22:58.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="oeiE8N-Q5xk_yKkF9TvE" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T03:50:42.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3dZ_aQ6GaLomMRuteEYX" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1251" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,14 +98,74 @@
         <mxCell id="nWXFKt9MvNIrhIuAzhl7-21" value="静默发单" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_ibISG0TpRlNrIzNE_-0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_ibISG0TpRlNrIzNE_-0-0" target="_ibISG0TpRlNrIzNE_-0-1">
+        <mxCell id="_ibISG0TpRlNrIzNE_-0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_ibISG0TpRlNrIzNE_-0-0" target="_ibISG0TpRlNrIzNE_-0-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_ibISG0TpRlNrIzNE_-0-0" value="git checkout feature/xx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="610" width="120" height="60" as="geometry" />
+        <mxCell id="_ibISG0TpRlNrIzNE_-0-0" value="git checkout feature/xx" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="204" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_ibISG0TpRlNrIzNE_-0-1" value="feature分支发布的时候 需要自动合入master&amp;nbsp; 这个打个tag就好了吧 触发gitlab hook" style="whiteSpace=wrap;html=1;rounded=1;rotation=-1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="750" width="140" height="80" as="geometry" />
+        <mxCell id="_ibISG0TpRlNrIzNE_-0-1" value="feature分支发布的时候 需要自动合入master&amp;nbsp; 这个打个tag就好了吧 触发gitlab hook" style="whiteSpace=wrap;html=1;rounded=1;rotation=-1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="10" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-0" target="AflDukJjDnS0kk5HPBkW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-0" value="点击发单按钮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-1" target="AflDukJjDnS0kk5HPBkW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AflDukJjDnS0kk5HPBkW-4">
+          <mxGeometry x="-0.2464" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-1" target="AflDukJjDnS0kk5HPBkW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AflDukJjDnS0kk5HPBkW-10">
+          <mxGeometry x="-0.2586" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-1" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;危化品围栏内&lt;br&gt;&amp;nbsp;且 未选择货物类别&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="820" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-8" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-3" target="AflDukJjDnS0kk5HPBkW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-3" target="AflDukJjDnS0kk5HPBkW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AflDukJjDnS0kk5HPBkW-16">
+          <mxGeometry x="-0.4758" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-3" value="是否选择跟车人数" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="327.5" y="940" width="165" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-7" target="AflDukJjDnS0kk5HPBkW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-7" value="&amp;nbsp;toast 提示&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot; style=&quot;font-style: italic ; font-weight: bold ; font-size: 14px&quot;&gt;您有2项必填信息未填&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="1080" width="120" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-9" value="新增逻辑&amp;nbsp; ： 主动显示货物类型弹窗&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-15" value="&lt;span&gt;已有逻辑 主动显示&lt;/span&gt;&lt;br&gt;&lt;span&gt;跟车人数弹窗&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="952.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AflDukJjDnS0kk5HPBkW-18" target="AflDukJjDnS0kk5HPBkW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-18" value="&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot; style=&quot;font-style: italic ; font-weight: bold ; font-size: 14px&quot;&gt;写&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;并按优先级弹窗*2&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="1180" width="120" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AflDukJjDnS0kk5HPBkW-20" value="依次填写两个弹窗 后&amp;nbsp;&lt;br&gt;走发单流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
