@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T03:59:49.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="h7D8K-K4-JeYDGnlq1R1" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T06:27:34.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="vCHXD5135jO0Ev7dEOiu" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1251" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="AflDukJjDnS0kk5HPBkW-7" value="&amp;nbsp;toast 提示&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot; style=&quot;font-style: italic ; font-weight: bold ; font-size: 14px&quot;&gt;您有2项必填信息未填&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; font-style: italic ; font-weight: 700 ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;写&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="1080" width="120" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="AflDukJjDnS0kk5HPBkW-9" value="新增逻辑&amp;nbsp; ： 主动显示货物类型弹窗&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="AflDukJjDnS0kk5HPBkW-9" value="新增逻辑&amp;nbsp; ： 主动显示货物类型弹窗(仅限拉货)&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="835" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AflDukJjDnS0kk5HPBkW-15" value="&lt;span&gt;已有逻辑 主动显示&lt;/span&gt;&lt;br&gt;&lt;span&gt;跟车人数弹窗&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
