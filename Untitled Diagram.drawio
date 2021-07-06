@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T09:11:44.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="T9tN6_bvAPkTAF8BBcJz" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T01:57:27.916Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="zpatDw1xeAtkDwq771cw" version="14.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1251" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,32 +167,55 @@
         <mxCell id="AflDukJjDnS0kk5HPBkW-20" value="依次填写两个弹窗 后&amp;nbsp;&lt;br&gt;走发单流程" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="350" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-0" target="oeiLDKQ3fSXkvNkCsRk3-1">
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-0" target="oeiLDKQ3fSXkvNkCsRk3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-0" value="CI管理后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="1650" width="120" height="60" as="geometry" />
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-0" value="CI管理后台" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="650" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-1" target="oeiLDKQ3fSXkvNkCsRk3-3">
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-1" target="oeiLDKQ3fSXkvNkCsRk3-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-1" value="选择分支 渠道 开始打包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="1750" width="120" height="60" as="geometry" />
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-1" value="选择分支 渠道 开始打包" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="650" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-3" target="oeiLDKQ3fSXkvNkCsRk3-5">
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-3" target="oeiLDKQ3fSXkvNkCsRk3-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-3" value="触发jekins打包" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="1860" width="120" height="60" as="geometry" />
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-3" value="触发jekins打包" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="650" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-5" target="oeiLDKQ3fSXkvNkCsRk3-7">
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oeiLDKQ3fSXkvNkCsRk3-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-5" value="jekins job 使用ci-cli脚本&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="650" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-7" value="完成后将打包结果发送到通知群" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="650" y="2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-1" value="git flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="74" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-2" value="CI flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Rp2FQdUgxLgS2f1Bc-dE-3" target="Rp2FQdUgxLgS2f1Bc-dE-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-5" value="jekins job 使用ci-cli脚本&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="1960" width="120" height="60" as="geometry" />
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Rp2FQdUgxLgS2f1Bc-dE-3" target="Rp2FQdUgxLgS2f1Bc-dE-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oeiLDKQ3fSXkvNkCsRk3-7" value="完成后将打包结果发送到通知群" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="2060" width="120" height="60" as="geometry" />
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-3" value="新建feature-210708" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="74" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-4" value="自动fork每个人的&lt;br&gt;Dev分支" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp2FQdUgxLgS2f1Bc-dE-6" value="打通望月" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="1940" width="124" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
