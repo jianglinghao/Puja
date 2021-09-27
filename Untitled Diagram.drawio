@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T09:02:12.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="J9YWFr0U8bolW-1EK5K4" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T09:02:32.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="8IOzyl02_HJ5PWyjR7cc" version="15.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4391" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -891,7 +891,7 @@
         <mxCell id="xeXNZKZwlZqnTYAJ5kH_-102" value="团队&lt;br&gt;*&lt;br&gt;周期&lt;br&gt;*&lt;br&gt;版本" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="xeXNZKZwlZqnTYAJ5kH_-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xeXNZKZwlZqnTYAJ5kH_-103" value="" style="endArrow=classic;startArrow=classic;html=1;fontFamily=Comic Sans MS;strokeColor=#A1A1A1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xeXNZKZwlZqnTYAJ5kH_-103" value="" style="endArrow=classic;startArrow=classic;html=1;fontFamily=Comic Sans MS;strokeColor=#d79b00;gradientColor=#ffa500;fillColor=#ffcd28;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1860" y="790" as="sourcePoint" />
             <mxPoint x="-1640" y="790" as="targetPoint" />
@@ -899,7 +899,7 @@
         </mxCell>
         <mxCell id="xeXNZKZwlZqnTYAJ5kH_-104" value="缺陷解决时长" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="xeXNZKZwlZqnTYAJ5kH_-103">
           <mxGeometry x="-0.214" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="16" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
