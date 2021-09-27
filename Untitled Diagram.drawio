@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T10:46:43.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="pGdbCehKvaP1A4BWbGza" version="15.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T10:50:04.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="FibRsFOTj3HJYppl34cZ" version="15.3.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4545" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -979,11 +979,6 @@
         <mxCell id="X57Xv7Y_IaEf2k1BgJkj-22" value="在CI构建平台基础上集成多种能力&lt;br&gt;包括oe构建跳转，流水线创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X57Xv7Y_IaEf2k1BgJkj-20">
           <mxGeometry x="-0.2225" y="-1" relative="1" as="geometry">
             <mxPoint x="30" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X57Xv7Y_IaEf2k1BgJkj-28" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X57Xv7Y_IaEf2k1BgJkj-20">
-          <mxGeometry x="0.3391" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X57Xv7Y_IaEf2k1BgJkj-25" value="" style="endArrow=classic;startArrow=classic;html=1;fontFamily=Comic Sans MS;strokeColor=#d79b00;gradientColor=#ffa500;fillColor=#ffcd28;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
