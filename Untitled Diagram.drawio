@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T10:14:50.059Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="htZdtiiEXpmZaTkK_XW0" version="15.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T10:17:25.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="0kTg7MPsi0BsJJQMp2QF" version="15.3.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4545" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -785,7 +785,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xeXNZKZwlZqnTYAJ5kH_-56" value="代码评审" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-2028.5" y="940" width="80" height="30" as="geometry" />
+          <mxGeometry x="-2090" y="950" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xeXNZKZwlZqnTYAJ5kH_-57" value="代码扫描" style="text;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-2028.5" y="850" width="80" height="30" as="geometry" />
@@ -837,9 +837,6 @@
         </mxCell>
         <mxCell id="Fc5986ytzBvad58GHKkZ-5" value="骨架屏生成" style="text;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-2028" y="740" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fc5986ytzBvad58GHKkZ-6" value="代码质量检测" style="text;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-2027" y="780" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xeXNZKZwlZqnTYAJ5kH_-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;strokeColor=#A1A1A1;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xeXNZKZwlZqnTYAJ5kH_-95" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -901,6 +898,9 @@
         </mxCell>
         <mxCell id="fqh5d2AWJp_dSC0KLw2P-4" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-2550" y="1160" width="1110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fqh5d2AWJp_dSC0KLw2P-6" value="代码质量检测" style="text;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1970" y="950" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
