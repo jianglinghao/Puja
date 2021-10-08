@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T09:55:30.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="6JOJXIxHEAMo9qPpHUCo" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T07:46:00.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="0lb3nx7tZtL-dOb6SVlk" version="15.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5011" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="4631" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1007,11 +1007,42 @@
             <mxPoint x="31" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLDm8vJZM72QRP2fmIpk-0" value="osim 多测试环境" style="text;strokeColor=#ae4132;fillColor=#fad9d5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xLDm8vJZM72QRP2fmIpk-0" value="osim 多测试环境" style="text;strokeColor=#ae4132;fillColor=#fad9d5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1990" y="940" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xLDm8vJZM72QRP2fmIpk-4" value="开发范式统一" style="text;strokeColor=#ae4132;fillColor=#66FF66;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xLDm8vJZM72QRP2fmIpk-4" value="开发范式统一" style="text;strokeColor=#ae4132;fillColor=#66FF66;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Comic Sans MS;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-2090" y="930" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w78h2rTARinxGNrYo64C-0" target="w78h2rTARinxGNrYo64C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-0" value="jumpWebUrl跳转\h5 页面的时候 从storage 获取osim 带在链接上" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2440" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-1" value="\h5 从链接上获取osim&amp;nbsp; 在kop.js 中 设置自定义header&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2240" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w78h2rTARinxGNrYo64C-3" target="w78h2rTARinxGNrYo64C-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2470" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w78h2rTARinxGNrYo64C-3" target="w78h2rTARinxGNrYo64C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-3" value="小程序： toogle-env 用户选择不同环境后 将 osim 存入storage&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2850" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="w78h2rTARinxGNrYo64C-4" target="w78h2rTARinxGNrYo64C-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-4" value="客户端： 获取环境变量的时候 将osim 存入storage&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2850" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w78h2rTARinxGNrYo64C-7" value="小程序kop请求 初始化的时候从storage 中获取osim 设置自定义header" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2240" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
