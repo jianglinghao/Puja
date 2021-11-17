@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T06:28:22.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="9FTG_lTNz88NEn0KpaUJ" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T06:30:16.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="zF5cPEVkDAjtpVRSoVTT" version="15.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="8526" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -1429,6 +1429,9 @@
         </mxCell>
         <mxCell id="pGCaaKshu1ODXaPOWpdx-23" value="更改发布状态&amp;nbsp;&lt;br&gt;发布结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-6790" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pGCaaKshu1ODXaPOWpdx-25" value="其他需求&lt;br&gt;如何打通 工作台和oe&lt;br&gt;是否支持自定义oe模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-7070" y="710" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
