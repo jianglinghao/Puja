@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T06:44:21.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Rqp_Klq6mDpH8GowiaGE" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T08:48:34.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Dj6c_2SlUJs1F7h6Corj" version="15.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="8526" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="8526" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1412,7 +1412,7 @@
         <mxCell id="pGCaaKshu1ODXaPOWpdx-8" value="&lt;span&gt;确认&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-6450" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pGCaaKshu1ODXaPOWpdx-11" value="调用部署接口" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="pGCaaKshu1ODXaPOWpdx-11" value="调用部署接口&lt;br&gt;sls depoly" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-6450" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pGCaaKshu1ODXaPOWpdx-13" value="发布单info 展示" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1424,7 +1424,7 @@
         <mxCell id="pGCaaKshu1ODXaPOWpdx-19" value="选择回滚版本&lt;br&gt;确认" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-7070" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pGCaaKshu1ODXaPOWpdx-21" value="怎么回滚？&lt;br&gt;调用部署接口" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="pGCaaKshu1ODXaPOWpdx-21" value="怎么回滚？&lt;br&gt;调用部署接口&lt;br&gt;sls 回滚命令" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-7070" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pGCaaKshu1ODXaPOWpdx-23" value="更改发布状态&amp;nbsp;&lt;br&gt;发布结束" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
