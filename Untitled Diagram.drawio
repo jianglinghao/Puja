@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T08:50:18.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="6oGyXbLP65jp0Ime8gZG" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T08:57:23.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="jbQy8TYbNsU3UrP3q7Tw" version="17.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="11284" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="11284" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1720,7 +1720,7 @@
         <mxCell id="WHGlZSffcrdbZ9z0o6QO-0" value="低代码项目&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-9150" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IvG05tvUJ4zg4E8c5fBX-0" value="生成后的页面逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-0" value="生成：&amp;nbsp; 页面 + 逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-9520" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IvG05tvUJ4zg4E8c5fBX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IvG05tvUJ4zg4E8c5fBX-1" target="IvG05tvUJ4zg4E8c5fBX-2">
@@ -1758,6 +1758,36 @@
         </mxCell>
         <mxCell id="IvG05tvUJ4zg4E8c5fBX-13" value="cloudAdminDesigner.init()&lt;br&gt;框架在这里初始化的Vue实例并挂载dom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-9590" y="1220" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IvG05tvUJ4zg4E8c5fBX-15" target="IvG05tvUJ4zg4E8c5fBX-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-9460" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-17" value="通过loap-genaretor 服务生成页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IvG05tvUJ4zg4E8c5fBX-16">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IvG05tvUJ4zg4E8c5fBX-20" target="IvG05tvUJ4zg4E8c5fBX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-15" value="lcap平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-9630" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-18" value="开物2 页面" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-9820" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-20" value="预览&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-9780" y="-30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvG05tvUJ4zg4E8c5fBX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IvG05tvUJ4zg4E8c5fBX-15" target="IvG05tvUJ4zg4E8c5fBX-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9630" y="-110" as="sourcePoint" />
+            <mxPoint x="-9760" y="60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
