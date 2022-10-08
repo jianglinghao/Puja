@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T03:16:27.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TIAFtyG3-PmBN9bEj0Am" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-08T03:25:25.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3dzr_vMtpma83Ke1BbJs" version="20.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="14592" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -2257,7 +2257,7 @@
         <mxCell id="oG3oWWXWfwl9r-Ui3DXp-46" value="是否用户下沉" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-11645" y="2025" width="125" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oG3oWWXWfwl9r-Ui3DXp-58" value="跳转至nuims-fe/cb页面：执行token同步逻辑 调用nuims-login 接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="oG3oWWXWfwl9r-Ui3DXp-58" value="跳转至nuims-fe/cb页面：执行token同步逻辑 ；&lt;br&gt;调用nuims-login 接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-11254" y="1910" width="144" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oG3oWWXWfwl9r-Ui3DXp-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oG3oWWXWfwl9r-Ui3DXp-59" target="oG3oWWXWfwl9r-Ui3DXp-35">
@@ -2268,7 +2268,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oG3oWWXWfwl9r-Ui3DXp-59" value="login页面执行cb逻辑（codelogin方法)：执行token同步逻辑 调用nuims-login 接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="oG3oWWXWfwl9r-Ui3DXp-59" value="login页面执行cb逻辑（codelogin方法)：&lt;br&gt;执行token同步逻辑；&lt;br&gt;调用system/login 接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-11249" y="2130" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oG3oWWXWfwl9r-Ui3DXp-60" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oG3oWWXWfwl9r-Ui3DXp-62" target="oG3oWWXWfwl9r-Ui3DXp-58">
