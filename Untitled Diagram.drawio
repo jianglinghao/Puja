@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T01:04:27.078Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NL39Fw3c9iNQQoIpdDqb" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T01:11:29.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lerMzIc39vjmP0ysI8nm" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="14692" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2341,12 +2341,6 @@
         <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-3" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;制品运行时&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-13260" y="-850" width="350" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-4" target="PvP_tbnEWJ-ciVRuCi5Z-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;依赖库&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;提供前后端注解切面&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; 后端： 标记某个逻辑翻译为接口&lt;br&gt;前端：调用后端接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-13080" y="-1090" width="140" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-5" target="PvP_tbnEWJ-ciVRuCi5Z-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -2369,6 +2363,26 @@
         </mxCell>
         <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-6" target="PvP_tbnEWJ-ciVRuCi5Z-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-15" target="PvP_tbnEWJ-ciVRuCi5Z-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-15" target="PvP_tbnEWJ-ciVRuCi5Z-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-12819" y="-830" />
+              <mxPoint x="-13010" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-15" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;依赖库&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;提供前后端注解切面&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; 后端： 标记某个逻辑翻译为接口&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;前端：制品运行时调用后端接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-12881" y="-1115" width="125" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-19" target="OrHcQ1KW9eA-gtzZuTRk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-19" value="实体：&lt;br&gt;1通过扫描注解生成开关UI&lt;br&gt;2 用户选择实体开启数据权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-13067.5" y="-1070" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
