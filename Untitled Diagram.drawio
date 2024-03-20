@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T01:18:10.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="qRS1zNTxKd4YxWgUmQCM" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T01:20:58.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="frWfWlVXj6AZJ92tUZ7j" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="14692" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="14500" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -2386,7 +2386,7 @@
         <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-19" target="OrHcQ1KW9eA-gtzZuTRk-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-19" value="实体：&lt;br&gt;1通过扫描注解生成开关UI&lt;br&gt;2 用户选择实体开启数据权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-19" value="实体：&lt;br&gt;1 通过扫描注解生成开关UI&lt;br&gt;2 用户选择实体开启数据权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-13067.5" y="-1070" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PvP_tbnEWJ-ciVRuCi5Z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvP_tbnEWJ-ciVRuCi5Z-24" target="PvP_tbnEWJ-ciVRuCi5Z-6">
