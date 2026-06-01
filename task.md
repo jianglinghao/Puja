@@ -35,3 +35,10 @@
   - [x] 改造 src/llm.js 实现生成器函数与断句缓冲池
   - [x] 改造 src/app.js 引入音频消费者播放队列与异步流水线
   - [x] 重新提交代码并推送至 GitHub 仓库
+- [/] **Task 11: 实现多引擎 TTS 抽象与 Edge-TTS 备用方案支持**
+  - [x] 安装 edge-tts-universal 依赖并更新 package.json
+  - [x] 修改 .env 增加 TTS_ENGINE 与语音选择配置
+  - [x] 修改 src/config.js 导出 TTS 引擎配置
+  - [x] 修改 src/tts.js 重构为支持多引擎分流的工厂模式
+  - [/] 重新提交代码并推送至 GitHub 仓库
+  - [ ] 重新提交代码并推送至 GitHub 仓库

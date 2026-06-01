@@ -10,5 +10,7 @@ module.exports = {
   sovitsApiUrl: process.env.SOVITS_API_URL || 'http://127.0.0.1:9880',
   whisperPath: process.env.WHISPER_PATH || path.join(__dirname, '../whisper.cpp'),
   tempDir: path.join(__dirname, '../temp'),
-  bluetoothDeviceName: process.env.BLUETOOTH_DEVICE_NAME || 'MH-M18'
+  bluetoothDeviceName: process.env.BLUETOOTH_DEVICE_NAME || 'MH-M18',
+  ttsEngine: process.env.TTS_ENGINE || 'sovits',
+  edgeTtsVoice: process.env.EDGE_TTS_VOICE || 'zh-CN-XiaoyiNeural'
 };
