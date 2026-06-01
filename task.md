@@ -26,8 +26,8 @@
 - [x] **Task 8: 上传至 GitHub 远程仓库 (Puja)**
   - [x] 清理并删除 GitHub 仓库已有的原 README
   - [x] 初始化本地 git 并推送代码到 https://github.com/jianglinghao/Puja
-- [/] **Task 9: 实现玩具蓝牙物理开关自动挂起与唤醒检测**
+- [x] **Task 9: 实现玩具蓝牙物理开关自动挂起与唤醒检测**
   - [x] 修改 .env 增加蓝牙设备名称环境变量
   - [x] 修改 src/config.js 支持蓝牙设备名称配置读取
   - [x] 修改 src/app.js 增加蓝牙状态心跳检测与挂起逻辑
-  - [/] 重新提交代码并推送至 GitHub 仓库
+  - [x] 重新提交代码并推送至 GitHub 仓库
