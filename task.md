@@ -1,0 +1,28 @@
+# 🧸 智能毛绒玩具 Node.js 项目开发任务表
+
+- [x] **Task 1: 初始化项目结构与安装前置依赖**
+  - [x] 创建 src/package.json 声明 Node 依赖包
+  - [x] 创建 .env 环境变量模板文件
+  - [x] 创建 src/user_profile.json 记忆配置文件
+  - [x] 执行 pnpm install 安装基础依赖
+- [x] **Task 2: 编译与准备本地 Whisper.cpp**
+  - [x] 克隆 whisper.cpp 并执行 make 编译
+  - [x] 下载 ggml-tiny.bin 中文语音模型
+- [x] **Task 3: 编写配置管理与记忆融合模块**
+  - [x] 创建 src/config.js 并编写配置导出
+  - [x] 创建 src/memory.js 并编写短期与长期记忆融合逻辑
+- [x] **Task 4: 编写 ASR 语音识别与 LLM 脑力请求模块**
+  - [x] 创建 src/asr.js 封装对 whisper.cpp 的命令行调用
+  - [x] 创建 src/llm.js 编写 OpenAI 风格 of LLM 请求接口
+- [x] **Task 5: 编写本地 TTS 声音合成与播放模块**
+  - [x] 创建 src/tts.js 封装本地 GPT-SoVITS 语音合成请求
+  - [x] 创建 src/player.js 封装系统音频播放
+- [x] **Task 6: 编写麦克风录音控制（静音检测）与主程序运行模块**
+  - [x] 创建 src/recorder.js 编写基于 node-record-lpcm16 的静音检测录音
+  - [x] 创建 src/app.js 串联整个 录音->识别->大模型->合成->播放 大循环
+- [x] **Task 7: 物理设备前置依赖安装与调试说明**
+  - [x] 创建 scripts/start-toy.sh 自动守护运行脚本
+  - [x] 创建 README.md 使用指南
+- [/] **Task 8: 上传至 GitHub 远程仓库 (Puja)**
+  - [/] 清理并删除 GitHub 仓库已有的原 README
+  - [ ] 初始化本地 git 并推送代码到 https://github.com/jianglinghao/Puja
